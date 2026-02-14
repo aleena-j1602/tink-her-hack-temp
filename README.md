@@ -2,11 +2,11 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# SkillSync 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Athena
 
 ### Team Members
 - Member 1: Aleena Joseph - Jyothi Engineering College
