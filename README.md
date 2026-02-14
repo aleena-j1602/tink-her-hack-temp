@@ -14,6 +14,9 @@
 
 ### Hosted Project Link
 
+https://drive.google.com/drive/folders/18T4D18EGz8ieO3fSba7hnGNH5DF9OWA_?usp=sharing
+
+
 ### Project Description
 A comprehensive career readiness system that compares student skills against role-based requirements, calculates readiness scores, identifies prioritized skill gaps, and generates customized learning paths with curated resources
 
