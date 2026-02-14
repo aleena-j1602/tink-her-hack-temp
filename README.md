@@ -9,20 +9,19 @@
 ### Team Name: [Name]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Aleena Joseph - Jyothi Engineering College
+- Member 2: Aghna Vincent - Jyothi Engineering College
 
 ### Hosted Project Link
-[mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+A comprehensive career readiness system that compares student skills against role-based requirements, calculates readiness scores, identifies prioritized skill gaps, and generates customized learning paths with curated resources
 
 ### The Problem statement
-[What problem are you solving?]
+Students struggle to understand the gap between their current skills and industry requirements for placements, leading to unfocused preparation, wasted time on irrelevant topics, and ultimately lower placement success rates. College placement cells lack data-driven insights to identify common skill deficiencies across batches and cannot effectively plan targeted training programs.
 
 ### The Solution
-[How are you solving it?]
+SkillSync combines algorithmic skill gap analysis with Google Gemini AI to deliver personalized career readiness insights. The platform analyzes student profiles against industry requirements, calculates readiness scores, and uses Gemini AI to generate intelligent learning recommendations, contextual study guidance, and personalized resource curation. This AI-enhanced approach ensures students receive not just a list of gaps, but actionable, prioritized learning paths with explanations tailored to their unique situation and learning style.
 
 ---
 
@@ -31,10 +30,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: Python
+- Frameworks used: HTML
+- Libraries used: 
+- Tools used: Google Gemini, Flask
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +45,10 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Intelligent Skill Gap Analysis
+- Feature 2: Personalized Learning Roadmaps
+- Feature 3: Interactive Dashboard with Multi-Tab Analytics
+- Feature 4: Batch-Level Institutional Analytics
 
 ---
 
@@ -59,12 +58,13 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+pip install flask flask
+pip install python
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+python3 test_gemini.py
 ```
 
 ### For Hardware:
@@ -83,7 +83,7 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+(Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
@@ -215,52 +215,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 ---
 
-### For Hardware Projects:
 
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
 
 ### For Scripts/CLI Tools:
 
@@ -268,13 +223,9 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 **Basic Usage:**
 ```bash
-python script.py [options] [arguments]
+python3 test_gemini.py
 ```
 
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
 
 **Options:**
 - `-h, --help` - Show help message and exit
@@ -372,21 +323,20 @@ python script.py -v --format json data.json
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
-If you used AI tools during development, document them here for transparency:
+ChatGPT, Claude AI
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** Git, GitHub, Flask, Gemini API
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+- Flask was chosen for its lightweight, flexible architecture that allows rapid API development with minimal boilerplate code, making it ideal for building RESTful endpoints for our skill analysis backend.
+- Google Gemini AI was integrated to provide intelligent, context-aware learning recommendations and personalized career guidance that adapts to each student's unique skill profile and learning needs.
+- GitHub was used for version control, collaborative development, and code management, enabling us to track changes, maintain project history, and facilitate seamless teamwork throughout the development process.
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+- "Create a GEMINI API endpoint for user authentication"
+- "Integrate Flask to develop the backend"
 
-**Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:** [Approximately 65%]
 
 **Human Contributions:**
 - Architecture design and planning
@@ -400,9 +350,8 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- Aghna Vincent: Frontend Development
+- Aleena Joseph: Backend development, Added Flask and Google Gemini
 
 ---
 
